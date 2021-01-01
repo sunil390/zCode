@@ -1,4 +1,5 @@
 # SKS 12/31/2020
+# SKS 01/01/2021
 # https://stackoverflow.com/questions/7152762/how-to-redirect-print-output-to-a-file-using-python 
 # Since Python 3.4 there's a simple context manager available to redirect print stdout to file in standard library:
 from contextlib import redirect_stdout
