@@ -1,5 +1,6 @@
 # SKS 12/31/2020 Created output in multiple files
 # SKS 01/01/2021 Created a single csv file
+# SKS 04/01/2021 65000 rows created in windows
 # https://stackoverflow.com/questions/7152762/how-to-redirect-print-output-to-a-file-using-python 
 from contextlib import redirect_stdout
 # https://www.w3schools.com/python/python_lists.asp
