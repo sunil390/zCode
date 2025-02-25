@@ -5,7 +5,7 @@ ansible-navigator:
     pull-policy: never
     volume-mounts:
       - src: /home/sunil390/znext/vars
-        dest: /vars
+        dest: /vars:Z
       - src: /home/sunil390/znext/secrets
-        dest: /secrets
+        dest: /secrets:Z
   mode: stdout

@@ -9,10 +9,12 @@
     get_url:
       url: https://public.dhe.ibm.com/eserver/zseries/holddata/month.txt
       dest: ./hold_data_30.txt
-      mode: u=rw,g=r,o=r
+      mode: '0644'
   - name: Register lifecyle as a variable
-    read_csv: 
+    community.general.read_csv:
       path: hold_data_old.txt
+      delimiter: ';'
+      field_names: ['id', 'lifecycle']
     register: pre
   - name: Read data from CSV file and return a list
     community.general.read_csv:
