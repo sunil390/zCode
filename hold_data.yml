@@ -19,6 +19,8 @@
   - name: Read data from CSV file and return a list
     community.general.read_csv:
       path: hold_data_30.txt
+      delimiter: ';'
+      field_names: ['id', 'lifecycle']
     register: post
   - name: Show the difference
     ansible.utils.fact_diff:
