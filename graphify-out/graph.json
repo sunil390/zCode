@@ -1,0 +1,757 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "network_adapter_protocol_stack",
+        "label": "Network Express Protocol Implementation Stack",
+        "nodes": [
+          "network_express_feature",
+          "eqdio_protocol",
+          "neth_protocol",
+          "smc_r_protocol"
+        ],
+        "relation": "implement",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "2026-03-27-Network-Express-Feature.md"
+      },
+      {
+        "id": "shift_operations_architecture",
+        "label": "Mainframe Shift Operations Architecture",
+        "nodes": [
+          "shift_operations_platform",
+          "n8n_platform",
+          "fastmcp_bridge",
+          "copilot_agent",
+          "python_tn3270"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "You said  We have the schedule of health checks a....md"
+      },
+      {
+        "id": "data_persistence_tracking",
+        "label": "Task State and Data Persistence Layer",
+        "nodes": [
+          "sqlite_database",
+          "markdown_checklist_template",
+          "github_enterprise_repo",
+          "webhook_receiver"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "You said  We have the schedule of health checks a....md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "FileGenerator.py",
+      "file_type": "code",
+      "source_file": "FileGenerator.py",
+      "source_location": "L1",
+      "id": "filegenerator_py",
+      "community": 3
+    },
+    {
+      "label": "generate_shift_load_data()",
+      "file_type": "code",
+      "source_file": "FileGenerator.py",
+      "source_location": "L3",
+      "id": "filegenerator_generate_shift_load_data",
+      "community": 3
+    },
+    {
+      "label": "nvidia1.py",
+      "file_type": "code",
+      "source_file": "nvidia1.py",
+      "source_location": "L1",
+      "id": "nvidia1_py",
+      "community": 4
+    },
+    {
+      "label": "tasktracker.py",
+      "file_type": "code",
+      "source_file": "tasktracker.py",
+      "source_location": "L1",
+      "id": "tasktracker_py",
+      "community": 5
+    },
+    {
+      "label": "Network Express Physical Adapter",
+      "file_type": "document",
+      "source_file": "2026-03-27-Network-Express-Feature.md",
+      "source_location": "Page 11-12",
+      "source_url": "https://www.ibm.com/support/pages/node/7231685",
+      "captured_at": "2026-03-27",
+      "author": "Linda Harrison",
+      "id": "network_express_feature",
+      "community": 0
+    },
+    {
+      "label": "Open Systems Adapter (OSA)",
+      "file_type": "document",
+      "source_file": "2026-03-27-Network-Express-Feature.md",
+      "source_location": "Page 4",
+      "source_url": "https://www.ibm.com/support/pages/node/7231685",
+      "captured_at": "2026-03-27",
+      "author": "Linda Harrison",
+      "id": "osa_chpid",
+      "community": 0
+    },
+    {
+      "label": "RDMA over Converged Ethernet (RoCE)",
+      "file_type": "document",
+      "source_file": "2026-03-27-Network-Express-Feature.md",
+      "source_location": "Page 5-7",
+      "source_url": "https://www.ibm.com/support/pages/node/7231685",
+      "captured_at": "2026-03-27",
+      "author": "Linda Harrison",
+      "id": "roce_feature",
+      "community": 0
+    },
+    {
+      "label": "Shared Memory Communications over RDMA (SMC-R)",
+      "file_type": "document",
+      "source_file": "2026-03-27-Network-Express-Feature.md",
+      "source_location": "Page 7",
+      "source_url": "https://www.ibm.com/support/pages/node/7231685",
+      "captured_at": "2026-03-27",
+      "author": "Linda Harrison",
+      "id": "smc_r_protocol",
+      "community": 0
+    },
+    {
+      "label": "Enhanced QDIO (EQDIO) Protocol",
+      "file_type": "document",
+      "source_file": "2026-03-27-Network-Express-Feature.md",
+      "source_location": "Page 14-15",
+      "source_url": "https://www.ibm.com/support/pages/node/7231685",
+      "captured_at": "2026-03-27",
+      "author": "Linda Harrison",
+      "id": "eqdio_protocol",
+      "community": 0
+    },
+    {
+      "label": "NETH Protocol",
+      "file_type": "document",
+      "source_file": "2026-03-27-Network-Express-Feature.md",
+      "source_location": "Page 15",
+      "source_url": "https://www.ibm.com/support/pages/node/7231685",
+      "captured_at": "2026-03-27",
+      "author": "Linda Harrison",
+      "id": "neth_protocol",
+      "community": 0
+    },
+    {
+      "label": "IBM Z17 Processor",
+      "file_type": "document",
+      "source_file": "2026-03-27-Network-Express-Feature.md",
+      "source_location": "Page 10, 16-17",
+      "source_url": "https://www.ibm.com/support/pages/node/7231685",
+      "captured_at": "2026-03-27",
+      "author": "Linda Harrison",
+      "id": "z17_processor",
+      "community": 0
+    },
+    {
+      "label": "z/OS Communications Server",
+      "file_type": "document",
+      "source_file": "2026-03-27-Network-Express-Feature.md",
+      "source_location": "Page 1-2",
+      "source_url": "https://www.ibm.com/support/pages/node/7231685",
+      "captured_at": "2026-03-27",
+      "author": "Linda Harrison",
+      "id": "zos_communications_server",
+      "community": 0
+    },
+    {
+      "label": "n8n Workflow Orchestration Platform",
+      "file_type": "document",
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 1, Phase 3",
+      "source_url": "https://gemini.google.com/app/a2f6336f935705bf",
+      "captured_at": "2026-04-11",
+      "author": "Gemini",
+      "id": "n8n_platform",
+      "community": 2
+    },
+    {
+      "label": "FastMCP Integration Bridge",
+      "file_type": "document",
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 2, Phase 4",
+      "source_url": "https://gemini.google.com/app/a2f6336f935705bf",
+      "captured_at": "2026-04-11",
+      "author": "Gemini",
+      "id": "fastmcp_bridge",
+      "community": 1
+    },
+    {
+      "label": "VS Code GitHub Copilot",
+      "file_type": "document",
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 1, Phase 3",
+      "source_url": "https://gemini.google.com/app/a2f6336f935705bf",
+      "captured_at": "2026-04-11",
+      "author": "Gemini",
+      "id": "copilot_agent",
+      "community": 1
+    },
+    {
+      "label": "IBM TN3270 Terminal Emulation",
+      "file_type": "document",
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 4",
+      "source_url": "https://gemini.google.com/app/a2f6336f935705bf",
+      "captured_at": "2026-04-11",
+      "author": "Gemini",
+      "id": "tn3270_protocol",
+      "community": 6
+    },
+    {
+      "label": "Mainframe Shift Operations Platform",
+      "file_type": "document",
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 1-4",
+      "source_url": "https://gemini.google.com/app/a2f6336f935705bf",
+      "captured_at": "2026-04-11",
+      "author": "Gemini",
+      "id": "shift_operations_platform",
+      "community": 1
+    },
+    {
+      "label": "Automated Health Checks",
+      "file_type": "document",
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 4",
+      "source_url": "https://gemini.google.com/app/a2f6336f935705bf",
+      "captured_at": "2026-04-11",
+      "author": "Gemini",
+      "id": "automated_health_checks",
+      "community": 1
+    },
+    {
+      "label": "Manual Task Workflow",
+      "file_type": "document",
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Continuation",
+      "source_url": "https://gemini.google.com/app/a2f6336f935705bf",
+      "captured_at": "2026-04-11",
+      "author": "Gemini",
+      "id": "manual_task_workflow",
+      "community": 1
+    },
+    {
+      "label": "SQLite Task Tracking Database",
+      "file_type": "document",
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 3",
+      "source_url": "https://gemini.google.com/app/a2f6336f935705bf",
+      "captured_at": "2026-04-11",
+      "author": "Gemini",
+      "id": "sqlite_database",
+      "community": 2
+    },
+    {
+      "label": "GitHub Enterprise Repository",
+      "file_type": "document",
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 3",
+      "source_url": "https://gemini.google.com/app/a2f6336f935705bf",
+      "captured_at": "2026-04-11",
+      "author": "Gemini",
+      "id": "github_enterprise_repo",
+      "community": 2
+    },
+    {
+      "label": "Markdown Checklist Template",
+      "file_type": "document",
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 3",
+      "source_url": "https://gemini.google.com/app/a2f6336f935705bf",
+      "captured_at": "2026-04-11",
+      "author": "Gemini",
+      "id": "markdown_checklist_template",
+      "community": 2
+    },
+    {
+      "label": "Docker Container Environment",
+      "file_type": "document",
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 3",
+      "source_url": "https://gemini.google.com/app/a2f6336f935705bf",
+      "captured_at": "2026-04-11",
+      "author": "Gemini",
+      "id": "docker_container",
+      "community": 2
+    },
+    {
+      "label": "n8n Webhook Receiver",
+      "file_type": "document",
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 3",
+      "source_url": "https://gemini.google.com/app/a2f6336f935705bf",
+      "captured_at": "2026-04-11",
+      "author": "Gemini",
+      "id": "webhook_receiver",
+      "community": 2
+    },
+    {
+      "label": "Ansible Automation Framework",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "Title, Lines 1-10",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "id": "ansible_framework",
+      "community": 1
+    },
+    {
+      "label": "Python TN3270 Scripts",
+      "file_type": "document",
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 4",
+      "source_url": "https://gemini.google.com/app/a2f6336f935705bf",
+      "captured_at": "2026-04-11",
+      "author": "Gemini",
+      "id": "python_tn3270",
+      "community": 1
+    },
+    {
+      "label": "jmespath Python Library",
+      "file_type": "document",
+      "source_file": "requirements.txt",
+      "source_location": "Line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "id": "jmespath_dependency",
+      "community": 7
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FileGenerator.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "filegenerator_py",
+      "_tgt": "filegenerator_generate_shift_load_data",
+      "source": "filegenerator_py",
+      "target": "filegenerator_generate_shift_load_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-03-27-Network-Express-Feature.md",
+      "source_location": "Page 8, Page 11",
+      "weight": 1.0,
+      "_src": "network_express_feature",
+      "_tgt": "osa_chpid",
+      "source": "network_express_feature",
+      "target": "osa_chpid"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-03-27-Network-Express-Feature.md",
+      "source_location": "Page 8-10",
+      "weight": 1.0,
+      "_src": "network_express_feature",
+      "_tgt": "roce_feature",
+      "source": "network_express_feature",
+      "target": "roce_feature"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-03-27-Network-Express-Feature.md",
+      "source_location": "Page 14",
+      "weight": 1.0,
+      "_src": "network_express_feature",
+      "_tgt": "eqdio_protocol",
+      "source": "network_express_feature",
+      "target": "eqdio_protocol"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-03-27-Network-Express-Feature.md",
+      "source_location": "Page 15",
+      "weight": 1.0,
+      "_src": "network_express_feature",
+      "_tgt": "neth_protocol",
+      "source": "network_express_feature",
+      "target": "neth_protocol"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-03-27-Network-Express-Feature.md",
+      "source_location": "Page 10",
+      "weight": 1.0,
+      "_src": "z17_processor",
+      "_tgt": "network_express_feature",
+      "source": "network_express_feature",
+      "target": "z17_processor"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-03-27-Network-Express-Feature.md",
+      "source_location": "Page 1, Page 8",
+      "weight": 1.0,
+      "_src": "network_express_feature",
+      "_tgt": "zos_communications_server",
+      "source": "network_express_feature",
+      "target": "zos_communications_server"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-03-27-Network-Express-Feature.md",
+      "source_location": "Page 10",
+      "weight": 1.0,
+      "_src": "z17_processor",
+      "_tgt": "osa_chpid",
+      "source": "osa_chpid",
+      "target": "z17_processor"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-03-27-Network-Express-Feature.md",
+      "source_location": "Page 7",
+      "weight": 1.0,
+      "_src": "roce_feature",
+      "_tgt": "smc_r_protocol",
+      "source": "roce_feature",
+      "target": "smc_r_protocol"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-03-27-Network-Express-Feature.md",
+      "source_location": "Page 15",
+      "weight": 1.0,
+      "_src": "neth_protocol",
+      "_tgt": "smc_r_protocol",
+      "source": "smc_r_protocol",
+      "target": "neth_protocol"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-03-27-Network-Express-Feature.md",
+      "source_location": "Page 15",
+      "weight": 1.0,
+      "_src": "eqdio_protocol",
+      "_tgt": "zos_communications_server",
+      "source": "eqdio_protocol",
+      "target": "zos_communications_server"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 4",
+      "weight": 1.0,
+      "_src": "python_tn3270",
+      "_tgt": "zos_communications_server",
+      "source": "zos_communications_server",
+      "target": "python_tn3270"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 1, Phase 3",
+      "weight": 1.0,
+      "_src": "shift_operations_platform",
+      "_tgt": "n8n_platform",
+      "source": "n8n_platform",
+      "target": "shift_operations_platform"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 4",
+      "weight": 1.0,
+      "_src": "fastmcp_bridge",
+      "_tgt": "n8n_platform",
+      "source": "n8n_platform",
+      "target": "fastmcp_bridge"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 3",
+      "weight": 1.0,
+      "_src": "n8n_platform",
+      "_tgt": "sqlite_database",
+      "source": "n8n_platform",
+      "target": "sqlite_database"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 3",
+      "weight": 1.0,
+      "_src": "n8n_platform",
+      "_tgt": "markdown_checklist_template",
+      "source": "n8n_platform",
+      "target": "markdown_checklist_template"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 3",
+      "weight": 1.0,
+      "_src": "n8n_platform",
+      "_tgt": "docker_container",
+      "source": "n8n_platform",
+      "target": "docker_container"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 3",
+      "weight": 1.0,
+      "_src": "n8n_platform",
+      "_tgt": "webhook_receiver",
+      "source": "n8n_platform",
+      "target": "webhook_receiver"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 2, Phase 4",
+      "weight": 1.0,
+      "_src": "shift_operations_platform",
+      "_tgt": "fastmcp_bridge",
+      "source": "fastmcp_bridge",
+      "target": "shift_operations_platform"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 4",
+      "weight": 1.0,
+      "_src": "fastmcp_bridge",
+      "_tgt": "python_tn3270",
+      "source": "fastmcp_bridge",
+      "target": "python_tn3270"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 3",
+      "weight": 1.0,
+      "_src": "copilot_agent",
+      "_tgt": "fastmcp_bridge",
+      "source": "fastmcp_bridge",
+      "target": "copilot_agent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 1, Phase 3",
+      "weight": 1.0,
+      "_src": "shift_operations_platform",
+      "_tgt": "copilot_agent",
+      "source": "copilot_agent",
+      "target": "shift_operations_platform"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Continuation",
+      "weight": 1.0,
+      "_src": "copilot_agent",
+      "_tgt": "manual_task_workflow",
+      "source": "copilot_agent",
+      "target": "manual_task_workflow"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 4",
+      "weight": 1.0,
+      "_src": "shift_operations_platform",
+      "_tgt": "automated_health_checks",
+      "source": "shift_operations_platform",
+      "target": "automated_health_checks"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Continuation",
+      "weight": 1.0,
+      "_src": "shift_operations_platform",
+      "_tgt": "manual_task_workflow",
+      "source": "shift_operations_platform",
+      "target": "manual_task_workflow"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 3",
+      "weight": 1.0,
+      "_src": "shift_operations_platform",
+      "_tgt": "sqlite_database",
+      "source": "shift_operations_platform",
+      "target": "sqlite_database"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 4",
+      "weight": 1.0,
+      "_src": "automated_health_checks",
+      "_tgt": "python_tn3270",
+      "source": "automated_health_checks",
+      "target": "python_tn3270"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 3",
+      "weight": 1.0,
+      "_src": "markdown_checklist_template",
+      "_tgt": "sqlite_database",
+      "source": "sqlite_database",
+      "target": "markdown_checklist_template"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 3",
+      "weight": 1.0,
+      "_src": "webhook_receiver",
+      "_tgt": "sqlite_database",
+      "source": "sqlite_database",
+      "target": "webhook_receiver"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 3",
+      "weight": 1.0,
+      "_src": "docker_container",
+      "_tgt": "github_enterprise_repo",
+      "source": "github_enterprise_repo",
+      "target": "docker_container"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "You said  We have the schedule of health checks a....md",
+      "source_location": "Phase 4",
+      "weight": 1.0,
+      "_src": "ansible_framework",
+      "_tgt": "python_tn3270",
+      "source": "ansible_framework",
+      "target": "python_tn3270"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "network_adapter_protocol_stack",
+      "label": "Network Express Protocol Implementation Stack",
+      "nodes": [
+        "network_express_feature",
+        "eqdio_protocol",
+        "neth_protocol",
+        "smc_r_protocol"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-03-27-Network-Express-Feature.md"
+    },
+    {
+      "id": "shift_operations_architecture",
+      "label": "Mainframe Shift Operations Architecture",
+      "nodes": [
+        "shift_operations_platform",
+        "n8n_platform",
+        "fastmcp_bridge",
+        "copilot_agent",
+        "python_tn3270"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md"
+    },
+    {
+      "id": "data_persistence_tracking",
+      "label": "Task State and Data Persistence Layer",
+      "nodes": [
+        "sqlite_database",
+        "markdown_checklist_template",
+        "github_enterprise_repo",
+        "webhook_receiver"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "You said  We have the schedule of health checks a....md"
+    }
+  ]
+}
