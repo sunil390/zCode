@@ -1,42 +1,123 @@
+/**
+ * usermod.j2
+ * 
+ * Purpose:
+ *   This Jinja2 template generates a JCL (Job Control Language) job for applying
+ *   a user modification (USERMOD) to an SMP/E (System Modification Program/Extended)
+ *   environment. Specifically, it applies the TCPMD01 modification which updates
+ *   the EZAFTPLC module in the SEZALOAD library.
+ * 
+ * Template Variables:
+ *   - smpe_global_dsn: The dataset name (DSN) of the SMP/E global CSI (Component
+ *     Status Inventory) that contains the modification control information.
+ *   - smpe_target_zone2: The target zone name where the modification will be applied
+ *     in the SMP/E environment.
+ * 
+ * Output:
+ *   A JCL job that:
+ *   1. Invokes the SMP/E program (GIMSMP) to process the USERMOD
+ *   2. Receives and applies the TCPMD01 modification
+ *   3. Links and compiles the EZAFTPLC module with required dependencies
+ *   4. Generates a callable dynamic link library (DLL)
+ * 
+ * Modifications Performed:
+ *   - Module: EZAFTPLC (FTP module)
+ *   - Library: SEZALOAD
+ *   - Includes: EUVFKDLL, EUVFKDLP, GSKAH011, GSKAH041
+ * 
+ * Note:
+ *   This job requires proper SMP/E environment setup and access to the specified
+ *   datasets. The template must be rendered with valid SMP/E configuration values.
+ */
+
 //UMOD JOB REGION=0M
 //SMPE EXEC,PGM=GIMSMP
+
+// SMP/E Input Datasets
 //SMPCSI DD DSN={{ smpe_global_dsn }},DISP=SHR
+  // SMP/E Global CSI (Component Status Inventory) - shared access
 //SMPHOLD DD DUMMY
+  // Dummy dataset for HOLD information
 //SMPPTFIN DD DATA,DLM=@@
+  // USERMOD definition follows, delimited by @@
+
+// USERMOD Definition
+// Defines the TCPMD01 modification package for the EZAFTPLC module
 ++USERMOD (TCPMD01).
+  // Associates with z/OS HIP61A0 FMID
 ++VER (Z038) FMID (HIP61A0).
+  // Specifies the module to be modified: EZAFTPLC
+  // Library containing the module: SEZALOAD
 ++MOD(EZAFTPLC) LKLIB(SEZALOAD).
+  // Job Control Language (JCL) for the modification
 ++JCLIN.
-//LINK0039 EXEC PGM=IEWBLINK,PARM=('OPTIONS
-(GENOPTS)'),NAME=SEZALOAD
+
+// Module Link-Edit Step
+// Compiles and links the EZAFTPLC module into the SEZALOAD library
+//LINK0039 EXEC PGM=IEWBLINK,PARM=('OPTIONS(GENOPTS)'),NAME=SEZALOAD
+// Link-editor options for runtime requirements
 //GENOPTS DD *
 RENT,REUS,AC=1,AMODE=31,RMODE=ANY,CASE(MIXED)
+  // RENT:       Module is reentrant
+  // REUS:       Module is reusable
+  // AC=1:       Authorization code
+  // AMODE=31:   31-bit addressing mode
+  // RMODE=ANY:  Any residency mode
+  // CASE(MIXED): Preserve case sensitivity
 DYNAM(DLL),CALL
+  // DYNAM(DLL): Generate as dynamic link library
+  // CALL:       Enable CALL instruction
+// Output module library
 //SYSLMOD DD DSN=SEZALOAD
 //SYSDEFSD DD DSN=SMPDUMMY
+// System libraries for linking
 //SYSLIB DD DSN=SCEEOBJ
+  // IBM COBOL/C/REXX object library
 // DD DSN=SCEELKEX
+  // IBM Language Environment exit routines
 // DD DSN=SCEELKED
+  // IBM Language Environment definitions
 // DD DSN=CSSLIB
+  // IBM Common Services library
 // DD DSN=SEUVFLIB
+  // TCP/IP Utilities library
+// Linkage editor control statements
 //SYSLIN DD *
+  // Include required modules as unresolved references
 INCLUDE SIEASID(EUVFKDLL) TYPE=UTIN
+  // Include EUVFKDLL module
 INCLUDE SIEASID(EUVFKDLP) TYPE=UTIN
+  // Include EUVFKDLP module
+  // GSKAH011 and GSKAH041 are related to GSKit/SSL support
 INCLUDE SGSKHFS(GSKAH011) TYPE=UTIN
 INCLUDE SGSKHFS(GSKAH041) TYPE=UTIN
+// Include the primary module
 INCLUDE SEZALOAD(EZAFTPLC)
+// Establish entry points and ordering
 ORDER EZBOECPR
+  // Order module EZBOECPR
 ORDER EZAFTPMG
+  // Order module EZAFTPMG
 ENTRY CEESTART
+  // Set main entry point to CEESTART
 ALIAS FTP(CEESTART)
+  // Create alias FTP for CEESTART entry point
 ALIAS Z062016
+  // Create secondary alias
 NAME EZAFTPLC(R)
-@@
+  // Name the output module EZAFTPLC (R) suffix indicates reentrant
+
+// SMP/E Control Statements
+// Processes the USERMOD in SMP/E
 //SMPCNTL DD *
 SET BDY(GLOBAL).
+  // Set boundary to GLOBAL zone for receiving the modification
 RECEIVE S(TCPMD01) LIST .
+  // Receive (register) the TCPMD01 USERMOD, list processing details
 SET BDY({{ smpe_target_zone2 }}).
+  // Switch to target zone for applying the modification
 APPLY S(
+  // Apply (install) the USERMOD to the target zone
 TCPMD01
 ).
-//
+// End of job
