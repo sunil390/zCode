@@ -1,0 +1,607 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - generic [ref=e9]:
+        - generic:
+          - navigation "Skip to content":
+            - link "Skip to content" [ref=e10] [cursor=pointer]:
+              - /url: "#main-content"
+              - generic [ref=e11]: Skip to content
+          - link "IBM logo" [ref=e13] [cursor=pointer]:
+            - /url: https://www.ibm.com/
+            - img [ref=e15]
+        - generic [ref=e19]:
+          - navigation "Primary navigation" [ref=e23]:
+            - generic [ref=e25]:
+              - generic:
+                - button "Software" [ref=e27] [cursor=pointer]:
+                  - text: Software
+                  - img [ref=e28]
+                - button "Infrastructure" [ref=e31] [cursor=pointer]:
+                  - text: Infrastructure
+                  - img [ref=e32]
+                - generic "Consulting" [ref=e34]:
+                  - link "Consulting" [ref=e35] [cursor=pointer]:
+                    - /url: https://www.ibm.com/consulting?lnk=L0G
+                    - generic [ref=e37]: Consulting
+                - button "Support" [ref=e39] [cursor=pointer]:
+                  - text: Support
+                  - img [ref=e40]
+                - generic "Think" [ref=e42]:
+                  - link "Think" [ref=e43] [cursor=pointer]:
+                    - /url: https://www.ibm.com/think
+                    - generic [ref=e45]: Think
+          - button "Open IBM search field" [ref=e48] [cursor=pointer]:
+            - img [ref=e49]
+        - generic [ref=e51]:
+          - generic:
+            - generic:
+              - link "Contact" [ref=e53] [cursor=pointer]:
+                - /url: javascript:void 0
+                - img [ref=e54]
+              - button [ref=e57] [cursor=pointer]:
+                - img [ref=e58]
+              - generic [ref=e60]:
+                - button "User profile" [ref=e61] [cursor=pointer]:
+                  - img [ref=e62]
+                - generic: My IBM
+                - generic: Log in
+      - generic [ref=e65]:
+        - link "IBM Z" [ref=e68] [cursor=pointer]:
+          - /url: https://www.ibm.com/products/z
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - button "Hardware" [ref=e73]:
+              - text: Hardware
+              - img [ref=e74]
+          - listitem [ref=e76]:
+            - button "Software" [ref=e77]:
+              - text: Software
+              - img [ref=e78]
+          - listitem [ref=e80]:
+            - button "Capabilities" [ref=e81]:
+              - text: Capabilities
+              - img [ref=e82]
+          - listitem [ref=e84]:
+            - button "Operating systems" [ref=e85]:
+              - text: Operating systems
+              - img [ref=e86]
+          - listitem [ref=e88]:
+            - link "Pricing" [ref=e89] [cursor=pointer]:
+              - /url: https://www.ibm.com/products/z/pricing
+          - listitem [ref=e90]:
+            - button "Resources" [ref=e91]:
+              - text: Resources
+              - img [ref=e92]
+        - link "Join the community" [ref=e95] [cursor=pointer]:
+          - /url: https://community.ibm.com/community/user/groupz?CommunityKey=8bc7f42b-b4ba-4419-80d8-2fbf894a6649
+          - generic [ref=e97]: Join the community
+    - generic [ref=e106]:
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - navigation "Breadcrumb" [ref=e110]:
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Home" [ref=e113] [cursor=pointer]:
+                  - /url: /
+                  - generic [ref=e114]: Home
+                - text: /
+              - listitem [ref=e115]:
+                - link "Products" [ref=e116] [cursor=pointer]:
+                  - /url: /products
+                  - generic [ref=e117]: Products
+                - text: /
+              - listitem [ref=e118]:
+                - generic [ref=e119]: Z
+          - heading "Do more at the core with IBM Z" [level=1] [ref=e120]
+        - generic [ref=e121]:
+          - generic [ref=e125]: Unlock more business value by bringing AI to mission-critical workloads on the IBM z17™
+          - list [ref=e127]:
+            - generic:
+              - link "Explore the new IBM z17" [ref=e128] [cursor=pointer]:
+                - /url: https://www.ibm.com/products/z17
+                - listitem [ref=e129]:
+                  - button "Explore the new IBM z17" [ref=e130]:
+                    - generic [ref=e131]: Explore the new IBM z17
+                    - img [ref=e134]: ","
+              - listitem [ref=e136]:
+                - button "Meet the all-new mainframe - This link plays a video" [ref=e137] [cursor=pointer]:
+                  - generic [ref=e138]: Meet the all-new mainframe
+                  - generic [ref=e139]:
+                    - generic [ref=e140]: "- This link plays a video"
+                    - img [ref=e141]: ","
+      - generic [ref=e143]:
+        - generic "AI to Z test (0:10 min)" [ref=e148]:
+          - region "AI to Z test" [ref=e153]
+        - button "Pause the video" [ref=e157]:
+          - img [ref=e158]
+          - text: Pause the video
+    - generic [ref=e165]:
+      - generic [ref=e169]:
+        - img "Black geometric cards with angular cutouts arranged diagonally on a gray background with soft shadows." [ref=e172]
+        - generic [ref=e173]:
+          - generic:
+            - text: "Wall Street Runs on Z: Join us for the latest updates on IBM Z, live from the New York Stock Exchange—where innovation meets the heartbeat of global markets."
+            - generic [ref=e174]: Tuesday July 7, 2026 9:30 AM EDT
+        - link "Register now" [ref=e176] [cursor=pointer]:
+          - /url: https://www.ibm.com/events/reg/flow/ibm/976z0omb/landing/page/landing
+          - button "Register now" [ref=e178]:
+            - generic [ref=e179]: Register now
+            - img [ref=e182]: ","
+      - generic [ref=e185]:
+        - heading "Advanced AI where you need it most" [level=2] [ref=e187]:
+          - generic [ref=e188]: Advanced AI where you need it most
+        - generic [ref=e189]:
+          - paragraph [ref=e192]:
+            - text: IBM Z® is a family of modern infrastructure powered by the
+            - link "IBM Telum® processor" [ref=e193] [cursor=pointer]:
+              - /url: https://www.ibm.com/products/z/telum
+            - text: that runs enterprise operating systems and IBM Z software delivering greater AI accuracy, productivity and agility.
+          - list [ref=e195]:
+            - generic:
+              - link "Modernization playbook" [ref=e196] [cursor=pointer]:
+                - /url: https://www.ibm.com/forms/mkt-whitepaper-203b9
+                - listitem [ref=e197]:
+                  - link "Modernization playbook" [ref=e198]:
+                    - /url: https://www.ibm.com/forms/mkt-whitepaper-203b9
+                    - generic [ref=e199]:
+                      - generic: Modernization playbook
+                    - img [ref=e202]
+              - link "IBM Z Comparison Guidebook (z17, z16, z15) - This link downloads a pdf" [ref=e204] [cursor=pointer]:
+                - /url: https://www-api.ibm.com/adobe/assets/urn:aaid:aem:0ddfb901-9517-4dc0-ac31-09373b3b7c86/original/as/buyers-guide_ibm-z-built-for-the-ai-era.pdf
+                - listitem [ref=e205]:
+                  - link "IBM Z Comparison Guidebook (z17, z16, z15) - This link downloads a pdf" [ref=e206]:
+                    - /url: https://www-api.ibm.com/adobe/assets/urn:aaid:aem:0ddfb901-9517-4dc0-ac31-09373b3b7c86/original/as/buyers-guide_ibm-z-built-for-the-ai-era.pdf
+                    - generic [ref=e207]:
+                      - generic: IBM Z Comparison Guidebook (z17, z16, z15)
+                    - generic [ref=e208]:
+                      - generic [ref=e209]: "- This link downloads a pdf"
+                      - img [ref=e210]
+      - generic [ref=e214]:
+        - generic [ref=e217]:
+          - img "Man working on laptop standing in server room" [ref=e221]
+          - generic [ref=e222]:
+            - generic [ref=e225]:
+              - heading "Infrastructure Infrastructure" [level=2] [ref=e226]
+              - generic [ref=e227]:
+                - generic: The modern mainframe boosts productivity with up to 8x on-chip AI processors per core for real-time insights and accuracy. The IBM z17 server platform integrates AI and breakthrough tech, ensuring top security, performance and availability.
+            - generic [ref=e231] [cursor=pointer]:
+              - heading "Explore IBM z17" [level=3] [ref=e233]:
+                - generic: Explore IBM z17
+              - link [ref=e235]:
+                - /url: https://www.ibm.com/products/z17
+                - link [ref=e237]:
+                  - /url: https://www.ibm.com/products/z17
+                  - img [ref=e240]
+        - link:
+          - /url: https://www.ibm.com/products/z17
+      - generic [ref=e243]:
+        - generic [ref=e246]:
+          - generic [ref=e250]:
+            - heading "Software Software" [level=2] [ref=e251]
+            - generic [ref=e252]:
+              - generic: Boost productivity with a platform built to simplify modernization. IBM Z uses AI to accelerate code understanding, preserve institutional knowledge, and streamline complex workflow so teams can deliver more, faster, without compromising the resilience your business relies on.
+          - generic [ref=e253]:
+            - img "Man working on laptop in front of two computer displays" [ref=e256]
+            - generic [ref=e260] [cursor=pointer]:
+              - heading "Explore IBM Z software" [level=3] [ref=e262]:
+                - generic: Explore IBM Z software
+              - link [ref=e264]:
+                - /url: https://www.ibm.com/products/z/software
+                - link [ref=e266]:
+                  - /url: https://www.ibm.com/products/z/software
+                  - img [ref=e269]
+        - link:
+          - /url: https://www.ibm.com/products/z/software
+      - generic [ref=e272]:
+        - generic [ref=e275]:
+          - img "Man inspecting processor card up close" [ref=e279]
+          - generic [ref=e280]:
+            - generic [ref=e283]:
+              - heading "Security Security" [level=2] [ref=e284]
+              - generic [ref=e285]:
+                - generic: Secure your most important data and accelerate your quantum-safe journey. Use AI-powered security and compliance, saving time and resources.
+            - generic [ref=e289] [cursor=pointer]:
+              - heading "Explore IBM Z security" [level=3] [ref=e291]:
+                - generic: Explore IBM Z security
+              - link [ref=e293]:
+                - /url: https://www.ibm.com/products/z/security
+                - link [ref=e295]:
+                  - /url: https://www.ibm.com/products/z/security
+                  - img [ref=e298]
+        - link:
+          - /url: https://www.ibm.com/products/z/security
+      - generic [ref=e300]:
+        - generic [ref=e301]:
+          - generic [ref=e303]:
+            - heading "Create a singular advantage from multiple angles" [level=2] [ref=e305]
+            - generic [ref=e307]:
+              - list
+          - generic [ref=e308]:
+            - generic:
+              - generic [ref=e312] [cursor=pointer]:
+                - img [ref=e314]:
+                  - img [ref=e315]
+                - heading "AIOps" [level=3] [ref=e317]:
+                  - generic: AIOps
+                - link "AIOps" [ref=e319]:
+                  - /url: https://www.ibm.com/products/z/aiops
+                  - link "AIOps" [ref=e321]:
+                    - /url: https://www.ibm.com/products/z/aiops
+                    - img [ref=e324]
+              - generic [ref=e329] [cursor=pointer]:
+                - img [ref=e331]:
+                  - img [ref=e332]
+                - heading "Artificial intelligence" [level=3] [ref=e334]:
+                  - generic: Artificial intelligence
+                - link "Artificial intelligence" [ref=e336]:
+                  - /url: https://www.ibm.com/products/z/artificial-intelligence
+                  - link "Artificial intelligence" [ref=e338]:
+                    - /url: https://www.ibm.com/products/z/artificial-intelligence
+                    - img [ref=e341]
+              - generic [ref=e346] [cursor=pointer]:
+                - img [ref=e348]:
+                  - img [ref=e349]
+                - heading "DevOps" [level=3] [ref=e351]:
+                  - generic: DevOps
+                - link "DevOps" [ref=e353]:
+                  - /url: https://www.ibm.com/products/z/devops
+                  - link "DevOps" [ref=e355]:
+                    - /url: https://www.ibm.com/products/z/devops
+                    - img [ref=e358]
+              - generic [ref=e363] [cursor=pointer]:
+                - img [ref=e366]:
+                  - img [ref=e367]
+                - heading "Hybrid cloud" [level=3] [ref=e369]:
+                  - generic: Hybrid cloud
+                - link "Hybrid cloud" [ref=e371]:
+                  - /url: https://www.ibm.com/products/z/hybrid-cloud
+                  - link "Hybrid cloud" [ref=e373]:
+                    - /url: https://www.ibm.com/products/z/hybrid-cloud
+                    - img [ref=e376]
+              - generic [ref=e382] [cursor=pointer]:
+                - img [ref=e384]:
+                  - img [ref=e385]
+                - heading "Application modernization" [level=3] [ref=e387]:
+                  - generic: Application modernization
+                - link "Application modernization" [ref=e389]:
+                  - /url: https://www.ibm.com/solutions/mainframe-application-modernization
+                  - link "Application modernization" [ref=e391]:
+                    - /url: https://www.ibm.com/solutions/mainframe-application-modernization
+                    - img [ref=e394]
+              - generic [ref=e399] [cursor=pointer]:
+                - img [ref=e401]:
+                  - img [ref=e402]
+                - heading "Resiliency" [level=3] [ref=e404]:
+                  - generic: Resiliency
+                - link "Resiliency" [ref=e406]:
+                  - /url: https://www.ibm.com/products/z/resiliency
+                  - link "Resiliency" [ref=e408]:
+                    - /url: https://www.ibm.com/products/z/resiliency
+                    - img [ref=e411]
+              - generic [ref=e416] [cursor=pointer]:
+                - img [ref=e418]:
+                  - img [ref=e419]
+                - heading "Operating systems" [level=3] [ref=e421]:
+                  - generic: Operating systems
+                - link "Operating systems" [ref=e423]:
+                  - /url: https://www.ibm.com/products/z/operating-systems
+                  - link "Operating systems" [ref=e425]:
+                    - /url: https://www.ibm.com/products/z/operating-systems
+                    - img [ref=e428]
+              - generic [ref=e433] [cursor=pointer]:
+                - img [ref=e435]:
+                  - img [ref=e436]
+                - heading "Sustainability" [level=3] [ref=e438]:
+                  - generic: Sustainability
+                - link "Sustainability" [ref=e440]:
+                  - /url: https://www.ibm.com/products/z/sustainability
+                  - link "Sustainability" [ref=e442]:
+                    - /url: https://www.ibm.com/products/z/sustainability
+                    - img [ref=e445]
+        - img [ref=e447]
+      - generic [ref=e451]:
+        - img "Aerial view of city with light beams running through it and Confluent logo overlayed" [ref=e454]
+        - generic [ref=e455]:
+          - generic:
+            - text: IBM and Confluent technology deliver real-time data for AI agents
+            - generic [ref=e456]: By combining Confluent with IBM technologies, businesses can turn continuously flowing data into trusted, governed action across hybrid environments.
+        - link "Read the announcement" [ref=e458] [cursor=pointer]:
+          - /url: https://www.ibm.com/new/announcements/ibm-and-confluent-announce-ability-to-connect-process-and-govern-real-time-data-for-applications-and-ai-agents
+          - button "Read the announcement" [ref=e460]:
+            - generic [ref=e461]: Read the announcement
+            - img [ref=e464]: ","
+      - generic [ref=e467]:
+        - generic [ref=e470]:
+          - img "Front face of three units of IBM z17 server racks" [ref=e474]
+          - generic [ref=e475]:
+            - generic [ref=e478]:
+              - heading "It’s here! A full stack AI solution. It’s here! A full stack AI solution." [level=2] [ref=e479]
+              - generic [ref=e480]:
+                - generic: With AI built into its DNA, the IBM z17 fuels business innovation with speed and performance, powering new workloads and models, all while automating and boosting productivity for efficiency.
+            - generic [ref=e484] [cursor=pointer]:
+              - heading "Discover IBM z17" [level=3] [ref=e486]:
+                - generic: Discover IBM z17
+              - link [ref=e488]:
+                - /url: https://www.ibm.com/products/z17
+                - link [ref=e490]:
+                  - /url: https://www.ibm.com/products/z17
+                  - img [ref=e493]
+        - link:
+          - /url: https://www.ibm.com/products/z17
+      - generic [ref=e496]:
+        - heading "Resources" [level=2] [ref=e498]
+        - generic [ref=e499]:
+          - generic [ref=e503]:
+            - generic [ref=e504]: Gartner report
+            - generic [ref=e505]:
+              - generic [ref=e506]: "Too Big to Fail: Why Mainframe Exit Projects Are Likely to Fail in the Age of Generative AI"
+              - generic [ref=e508] [cursor=pointer]: New
+            - link [ref=e510] [cursor=pointer]:
+              - /url: https://www.ibm.com/forms/mkt-75fcd
+              - img [ref=e511]
+          - generic [ref=e516]:
+            - generic [ref=e517]: Gartner report
+            - generic [ref=e518]:
+              - generic [ref=e519]: "The State of the IBM Mainframe in 2026: Mainframes continue to deliver unmatched resiliency, security, transactional integrity and backward compatibility compared with alternative platforms."
+              - generic [ref=e521] [cursor=pointer]: New
+            - link [ref=e523] [cursor=pointer]:
+              - /url: https://www.ibm.com/forms/mkt-17256
+              - img [ref=e524]
+          - generic [ref=e529]:
+            - generic [ref=e530]: General availability
+            - generic [ref=e531]:
+              - generic [ref=e532]: Red Hat OpenShift Virtualization on IBM Z and LinuxONE lets enterprises run VMs and containers on one platform to simplify operations and reduce costs.
+              - generic [ref=e534] [cursor=pointer]: New
+            - link [ref=e536] [cursor=pointer]:
+              - /url: https://community.ibm.com/community/user/blogs/kelly-pushong/2025/08/12/red-hat-openshift-virtualization-now-available
+              - img [ref=e537]
+          - generic [ref=e542]:
+            - generic [ref=e543]: Mainframe compliance blog
+            - generic [ref=e545]: Discover how modernizing mainframe compliance can ease regulatory anxiety and strengthen your organization’s security posture in today’s complex digital landscape.
+            - link [ref=e547] [cursor=pointer]:
+              - /url: https://www.ibm.com/think/insights/compliance-anxiety-mainframe
+              - img [ref=e548]
+          - generic [ref=e553]:
+            - generic [ref=e554]: Software
+            - generic [ref=e556]: IBM Concert for Z is an AI-driven IT operations hub that boosts mainframe resilience by unifying siloed data, streamlining insights, and accelerating response.
+            - link [ref=e558] [cursor=pointer]:
+              - /url: https://www.ibm.com/products/concert-for-z
+              - img [ref=e559]
+          - generic [ref=e564]:
+            - generic [ref=e565]: Video
+            - generic [ref=e567]: Learn how AI on IBM z17 powers fast, high-volume transactions and detects fraud in real time without moving data.
+            - 'link "From AI To Z: Transaction Powerhouse (3:09)" [ref=e568] [cursor=pointer]':
+              - /url: "#"
+              - generic [ref=e569]: "From AI To Z: Transaction Powerhouse (3:09)"
+              - img [ref=e570]
+          - generic [ref=e575]:
+            - generic [ref=e576]: Software
+            - generic [ref=e578]: Accelerate and enhance the development of predictive AI models and LLMs on IBM Z with IBM Synthetic Data Sets.
+            - link [ref=e580] [cursor=pointer]:
+              - /url: https://community.ibm.com/community/user/blogs/elpida-tzortzatos/2025/01/28/announcing-ibm-synthetic-data-sets?communityKey=038560b2-e962-4500-b0b5-e3745175a065
+              - img [ref=e581]
+          - generic [ref=e586]:
+            - generic [ref=e587]: Quantum Six report
+            - generic [ref=e589]: Explores AI’s role in banking, key use cases, and a roadmap for AI adoption to drive innovation and efficiency.
+            - link [ref=e591] [cursor=pointer]:
+              - /url: https://www-api.ibm.com/adobe/assets/urn:aaid:aem:90fe0c25-bd3f-4573-9069-0c927cb23c8a/original/as/quantumsix_pragmatic-ai_three-core-activities-that-will-reshape-banking-automation.pdf
+              - img [ref=e592]
+          - generic [ref=e598]:
+            - generic [ref=e599]: Product demo
+            - generic [ref=e601]: Try IBM Test Accelerator for Z and learn to automate testing, deploy integration tests, and create on-demand dev/test environments for z/OS.
+            - link [ref=e603] [cursor=pointer]:
+              - /url: https://www.ibm.com/products/test-accelerator-z#tour
+              - img [ref=e604]
+          - generic [ref=e609]:
+            - generic [ref=e610]: Product demo
+            - generic [ref=e612]: Try IBM watsonx Code Assistant for Z to accelerate app understanding, refactoring, and COBOL-to-Java modernization.
+            - link [ref=e614] [cursor=pointer]:
+              - /url: https://www.ibm.com/products/watsonx-code-assistant-z/demo
+              - img [ref=e615]
+      - generic [ref=e619]:
+        - generic [ref=e621]:
+          - heading "Take the next step" [level=2] [ref=e622]
+          - paragraph [ref=e626]: Do more at the core of your business with AI on Z. Schedule a meeting with an IBM z17 representative.
+          - list [ref=e627]:
+            - listitem [ref=e628]:
+              - link "Explore IBM z17" [ref=e629] [cursor=pointer]:
+                - /url: https://www.ibm.com/products/z17
+                - generic [ref=e630]: Explore IBM z17
+                - img [ref=e631]
+            - listitem [ref=e633]:
+              - link [ref=e634] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e635]
+        - generic [ref=e639]:
+          - heading "More ways to explore" [level=4] [ref=e640]
+          - list [ref=e641]:
+            - link "Documentation" [ref=e643] [cursor=pointer]:
+              - /url: https://www.ibm.com/docs/en
+              - generic [ref=e644]: Documentation
+              - img [ref=e645]
+            - link "Support" [ref=e648] [cursor=pointer]:
+              - /url: https://www.ibm.com/mysupport/s/
+              - generic [ref=e649]: Support
+              - img [ref=e650]
+            - link "Community" [ref=e653] [cursor=pointer]:
+              - /url: https://community.ibm.com/zsystems/neighborhood/home/
+              - generic [ref=e654]: Community
+              - img [ref=e655]
+            - link "Lifecycle services and support" [ref=e658] [cursor=pointer]:
+              - /url: https://www-api.ibm.com/adobe/assets/urn:aaid:aem:b32bd821-5c72-4cd0-a20d-a601f8da843b/original/as/ibm-z-support-and-services-solution-brief.pdf
+              - generic [ref=e659]: Lifecycle services and support
+              - img [ref=e660]
+      - generic [ref=e667]:
+        - heading "Footnotes" [level=5] [ref=e670]
+        - paragraph [ref=e674]:
+          - superscript [ref=e675]: "1"
+          - 'link "Ministry of Interior, State of Qatar case study: Lightning-fast query processing and lower cost" [ref=e676] [cursor=pointer]':
+            - /url: https://www.ibm.com/case-studies/state-of-qatar-ministry-of-interior
+    - contentinfo "footer" [ref=e680]:
+      - generic [ref=e684]:
+        - link "IBM logo" [ref=e686] [cursor=pointer]:
+          - /url: https://www.ibm.com/
+          - img [ref=e687]
+        - navigation "Footer navigation" [ref=e689]:
+          - list [ref=e690]:
+            - generic:
+              - listitem [ref=e691]:
+                - heading "Discover" [level=2] [ref=e692]:
+                  - generic [ref=e693]: Discover
+                - list [ref=e695]:
+                  - generic:
+                    - listitem [ref=e696]:
+                      - link "Products" [ref=e697] [cursor=pointer]:
+                        - /url: https://www.ibm.com/products?lnk=flatitem
+                        - generic: Products
+                    - listitem [ref=e698]:
+                      - link "Consulting services" [ref=e699] [cursor=pointer]:
+                        - /url: https://www.ibm.com/consulting?lnk=flatitem
+                        - generic: Consulting services
+                    - listitem [ref=e700]:
+                      - link "Industries" [ref=e701] [cursor=pointer]:
+                        - /url: https://www.ibm.com/industries?lnk=flatitem
+                        - generic: Industries
+                    - listitem [ref=e702]:
+                      - link "Case studies" [ref=e703] [cursor=pointer]:
+                        - /url: https://www.ibm.com/case-studies?lnk=flatitem
+                        - generic: Case studies
+                    - listitem [ref=e704]:
+                      - link "Financing" [ref=e705] [cursor=pointer]:
+                        - /url: https://www.ibm.com/financing?lnk=flatitem
+                        - generic: Financing
+                    - listitem [ref=e706]:
+                      - link "Research" [ref=e707] [cursor=pointer]:
+                        - /url: https://research.ibm.com/?lnk=flatitem
+                        - generic: Research
+              - listitem [ref=e708]:
+                - heading "Follow" [level=2] [ref=e709]:
+                  - generic [ref=e710]: Follow
+                - list [ref=e712]:
+                  - generic:
+                    - listitem [ref=e713]:
+                      - link "LinkedIn" [ref=e714] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/ibm
+                        - generic: LinkedIn
+                    - listitem [ref=e715]:
+                      - link "X" [ref=e716] [cursor=pointer]:
+                        - /url: https://www.twitter.com/ibm
+                        - generic: X
+                    - listitem [ref=e717]:
+                      - link "Instagram" [ref=e718] [cursor=pointer]:
+                        - /url: https://www.instagram.com/ibm
+                        - generic: Instagram
+                    - listitem [ref=e719]:
+                      - link "YouTube" [ref=e720] [cursor=pointer]:
+                        - /url: https://www.youtube.com/@IBM
+                        - generic: YouTube
+                    - listitem [ref=e721]:
+                      - link "Podcasts" [ref=e722] [cursor=pointer]:
+                        - /url: https://www.ibm.com/think/podcasts
+                        - generic: Podcasts
+              - listitem [ref=e723]:
+                - heading "Connect" [level=2] [ref=e724]:
+                  - generic [ref=e725]: Connect
+                - list [ref=e727]:
+                  - generic:
+                    - listitem [ref=e728]:
+                      - link "Business partners" [ref=e729] [cursor=pointer]:
+                        - /url: https://www.ibm.com/partnerplus/directory/companies
+                        - generic: Business partners
+                    - listitem [ref=e730]:
+                      - link "Documentation" [ref=e731] [cursor=pointer]:
+                        - /url: https://www.ibm.com/docs/en?lnk=flathl
+                        - generic: Documentation
+                    - listitem [ref=e732]:
+                      - link "Events" [ref=e733] [cursor=pointer]:
+                        - /url: https://www.ibm.com/events/
+                        - generic: Events
+                    - listitem [ref=e734]:
+                      - link "Newsletters" [ref=e735] [cursor=pointer]:
+                        - /url: https://www.ibm.com/subscribe/
+                        - generic: Newsletters
+                    - listitem [ref=e736]:
+                      - link "Support" [ref=e737] [cursor=pointer]:
+                        - /url: https://www.ibm.com/mysupport/s/?language=en_US&lnk=flathl
+                        - generic: Support
+                    - listitem [ref=e738]:
+                      - link "TechXchange community" [ref=e739] [cursor=pointer]:
+                        - /url: https://community.ibm.com/community/user/home?lnk=fpo
+                        - generic: TechXchange community
+              - listitem [ref=e740]:
+                - heading "About" [level=2] [ref=e741]:
+                  - generic [ref=e742]: About
+                - list [ref=e744]:
+                  - generic:
+                    - listitem [ref=e745]:
+                      - link "Overview" [ref=e746] [cursor=pointer]:
+                        - /url: https://www.ibm.com/about/?lnk=flatitem
+                        - generic: Overview
+                    - listitem [ref=e747]:
+                      - link "Careers" [ref=e748] [cursor=pointer]:
+                        - /url: https://www.ibm.com/careers/us-en?lnk=flathl
+                        - generic: Careers
+                    - listitem [ref=e749]:
+                      - link "Investor relations" [ref=e750] [cursor=pointer]:
+                        - /url: https://www.ibm.com/investor?lnk=flatitem
+                        - generic: Investor relations
+                    - listitem [ref=e751]:
+                      - link "Leadership" [ref=e752] [cursor=pointer]:
+                        - /url: https://newsroom.ibm.com/executive-bios
+                        - generic: Leadership
+                    - listitem [ref=e753]:
+                      - link "Newsroom" [ref=e754] [cursor=pointer]:
+                        - /url: https://newsroom.ibm.com/?lnk=flatitem
+                        - generic: Newsroom
+                    - listitem [ref=e755]:
+                      - link "Security, privacy and trust" [ref=e756] [cursor=pointer]:
+                        - /url: https://www.ibm.com/trust?lnk=flatitem
+                        - generic: Security, privacy and trust
+      - navigation "Legal Navigation" [ref=e758]:
+        - list [ref=e760]:
+          - generic:
+            - listitem [ref=e761]:
+              - link "Contact IBM" [ref=e762] [cursor=pointer]:
+                - /url: https://www.ibm.com/contact/global
+                - generic: Contact IBM
+            - listitem [ref=e763]:
+              - link "Privacy" [ref=e764] [cursor=pointer]:
+                - /url: https://www.ibm.com/us-en/privacy
+                - generic: Privacy
+            - listitem [ref=e765]:
+              - link "Terms of use" [ref=e766] [cursor=pointer]:
+                - /url: https://www.ibm.com/legal?lnk=flg-tous-usen
+                - generic: Terms of use
+            - listitem [ref=e767]:
+              - link "Accessibility" [ref=e768] [cursor=pointer]:
+                - /url: https://www.ibm.com/able/?lnk=flg-acce-usen
+                - generic: Accessibility
+            - complementary "Open Cookie Preferences Modal" [ref=e769]:
+              - link "Cookie Preferences, opens a dedicated popup modal window" [ref=e770] [cursor=pointer]: Cookie Preferences
+  - generic [ref=e772]:
+    - img [ref=e774]
+    - img [ref=e780]
+  - banner "consent_blackbar":
+    - generic [ref=e783]:
+      - button "close icon" [ref=e785] [cursor=pointer]
+      - generic [ref=e787]:
+        - generic [ref=e790]:
+          - text: About cookies on this site
+          - generic [ref=e791]:
+            - generic [ref=e792]: Our websites require some cookies to function properly (required). In addition, other cookies may be used with your consent to analyze site usage, improve the user experience and for advertising.
+            - generic [ref=e793]:
+              - text: For more information, please review your
+              - button "cookie preferences" [ref=e794] [cursor=pointer]
+              - text: options. By visiting our website, you agree to our processing of information as described in IBM’s
+              - link "privacy statement" [ref=e795] [cursor=pointer]:
+                - /url: https://www.ibm.com/privacy
+              - text: .
+            - generic [ref=e796]:
+              - text: To provide a smooth navigation, your cookie preferences will be shared across the IBM web domains listed
+              - link "here" [ref=e797] [cursor=pointer]:
+                - /url: "#truste_domain_list"
+              - text: .
+        - generic [ref=e798]:
+          - button "Accept all" [ref=e799] [cursor=pointer]
+          - button "More options" [ref=e800] [cursor=pointer]
