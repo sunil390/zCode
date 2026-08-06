@@ -18,7 +18,7 @@ def check_ibm_stock():
         try:
             print("Navigating to Yahoo Finance (IBM)...")
             with page.expect_response(lambda response: "query1.finance.yahoo.com/v7/finance/quote" in response.url) as response_info:
-                page.goto("https://finance.yahoo.com/quote/IBM/", wait_until="networkidle", timeout=30000)
+                page.goto("https://finance.yahoo.com/quote/IBM/", wait_until="domcontentloaded", timeout=30000)
             response = response_info.value
             payload = response.json()
 
